@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://e-cube06.github.io/oggys-App",
   "name": "react-recipe-app",
   
   "private": true,
@@ -13,6 +13,9 @@
     
   "dev": "vite",
   
+  "predeploy":"npm run build",
+
+  "deploy":"gh-pages -d build",
     
   "build": "vite build",
   
