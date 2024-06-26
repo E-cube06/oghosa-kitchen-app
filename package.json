@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "http://E-cube06github.io/oghosa-kitchen-app",
   "name": "react-recipe-app",
   
   "private": true,
@@ -18,7 +18,9 @@
 
   "dev": "vite",
   
-    
+  "predeploy": "npm run build",
+
+  "deploy": "gh-pages -d dist",
   "build": "vite build",
   
 
